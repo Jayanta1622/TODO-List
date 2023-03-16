@@ -42,7 +42,7 @@ function renderTodoList() {
     todoDelete.classList.add("todo-delete");
     todoDelete.textContent = "Delete";
     todoDelete.addEventListener("click", () => deleteTodoItem(i));
-
+    
     todoItem.appendChild(todoText);
     todoItem.appendChild(todoDelete);
 
